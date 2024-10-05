@@ -1,0 +1,9 @@
+[submodule "Multisig-Wallet-Programs"]
+	path = Multisig-Wallet-Programs
+	url = https://github.com/ivanrad10/Multisig-Wallet-Programs.git
+[submodule "Multisig-Wallet-Frontend"]
+	path = Multisig-Wallet-Frontend
+	url = https://github.com/ivanrad10/Multisig-Wallet-Frontend.git
+[submodule "Multisig-Wallet-Backend"]
+	path = Multisig-Wallet-Backend
+	url = https://github.com/ivanrad10/Multisig-Wallet-Backend.git
