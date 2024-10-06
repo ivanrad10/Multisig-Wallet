@@ -1,18 +1,13 @@
 # Multisig-Wallet
 This project implements a Multisig Wallet on Solana using the Anchor framework. A multisig wallet requires multiple signatures from predefined owners to approve and execute transactions, providing an additional layer of security.
 
-# Programs
-
 ## Table of Contents
-1. [Why PDAs (Program Derived Addresses)?](#why-pdas-program-derived-addresses)
-2. [Key Functions Explained](#key-functions-explained)
-   - [Initialize Multisig](#initialize-multisig)
-   - [Create Transaction](#create-transaction)
-   - [Approve Transaction](#approve-transaction)
-   - [Revoke Transaction](#revoke-transaction)
-   - [Fund Multisig](#fund-multisig)
-   - 
+1. Programs
+2. Backend
+3. Frontend
 ---
+
+# Programs
 
 ## Why PDAs (Program Derived Addresses)?
 
