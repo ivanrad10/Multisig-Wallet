@@ -1,5 +1,5 @@
 # Multisig-Wallet
-This project implements a Multisig Wallet on Solana using the Anchor framework. A multisig wallet requires multiple signatures from predefined owners to approve and execute transactions, providing an additional layer of security.
+This project implements a Multisig Wallet on Solana using the Anchor framework for the program, Nest js for the backend and React for the frontend. A multisig wallet requires multiple signatures from predefined owners to approve and execute transactions, providing an additional layer of security.
 
 ## Table of Contents
 1. Programs
@@ -56,9 +56,17 @@ pub fn fund_multisig(ctx: Context<FundMultisig>, amount: u64) -> Result<()>
 
 # Backend
 
+``` curl
+npm run start:dev
+```
+
 The backend service is responsible for securely hashing the owners' public keys to create a unique seed for the PDA. This process ensures that each multisig wallet on the Solana blockchain has a unique and deterministic address based on its owners, enhancing both security and address consistency.
 
 # Frontend
+
+``` curl
+yarn run dev
+```
 
 # Multisig Wallet Frontend
 
